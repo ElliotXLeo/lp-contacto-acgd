@@ -15,17 +15,15 @@
 
 <body class="body">
   <header class="header">
-    <nav class="nav">
-      <a href="#" class="nav__enlace">Menú</a>
-      <!-- <div class="nav__enlaces uno">
-        <ul class="nav__list">
-          <li><a href="" class="nav__enlace">Inicio</a></li>
-          <li><a href="" class="nav__enlace">Nosotros</a></li>
-          <li><a href="" class="nav__enlace">Contacto</a></li>
-        </ul>
-      </div> -->
-    </nav>
     <div class="header__container">
+      <nav class="nav">
+        <a href="#" class="nav__menu" id="menu">Menú</a>
+        <div class="nav__enlaces circulo-inicial" id="menuEnlaces">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__enlace header__contacto">Base 2</a></li>
+          </ul>
+        </div>
+      </nav>
       <div class="header__titulos">
         <h1 class="header__titulo-principal">Landing Page Contacto</h1>
         <h2 class="header__slogan">Si lo puedes imaginar lo podemos programar</h2>
@@ -36,7 +34,16 @@
       <img src="./img/img-backgroud.png" alt="Personas programando tu sueño" class="header__imagen">
     </div>
   </header>
-  <div class="wave"></div>
+  <div class="wave">
+    <div style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #ffffff;">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>
