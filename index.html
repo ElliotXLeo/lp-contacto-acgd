@@ -14,26 +14,29 @@
 </head>
 
 <body class="body">
+
   <header class="header">
     <div class="header__container">
       <nav class="nav">
         <a href="#" class="nav__menu" id="menu">Menú</a>
         <div class="nav__enlaces circulo-inicial" id="menuEnlaces">
           <ul class="nav__list">
-            <li><a href="#" class="nav__enlace header__contacto">Base 2</a></li>
+            <li><a href="https://nextjs-react-portafolio-fc.vercel.app" class="nav__enlace header__contacto">Elliot
+                Garamendi</a></li>
           </ul>
         </div>
       </nav>
       <div class="header__titulos">
         <h1 class="header__titulo-principal">Landing Page Contacto</h1>
         <h2 class="header__slogan">Si lo puedes imaginar lo podemos programar</h2>
-        <a href="#" class="header__contacto">
+        <a href="#contacto" class="header__contacto">
           Contacto
         </a>
       </div>
       <img src="./img/img-backgroud.png" alt="Personas programando tu sueño" class="header__imagen">
     </div>
   </header>
+
   <div class="wave">
     <div style="height: 150px; overflow: hidden;">
       <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
@@ -43,6 +46,36 @@
       </svg>
     </div>
   </div>
+
+  <section class="contacto" id="contacto">
+    <h2 class="contacto__title">
+      Contacto
+    </h2>
+    <form action="#" class="contacto__form">
+      <input type="text" class="contacto__input-text contacto__input-text--w-40" placeholder="Nombre">
+      <input type="email" class="contacto__input-text contacto__input-text--w-40" placeholder="Correo">
+      <textarea id="" cols="30" rows="10" class="contacto__input-text"
+        placeholder="Comentanos sobre tu sueño"></textarea>
+      <button class="contacto__button">Contactar</button>
+    </form>
+  </section>
+
+
+  <div class="wave wave--180deg-x">
+    <div style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #ffffff;">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__title">
+      🦄Copyright © 2021 Elliot Garamendi. Todos los derechos reservados.🦄
+    </div>
+  </footer>
+
   <script src="./js/index.js" type="module"></script>
 </body>
 
